@@ -4,7 +4,8 @@ Fast and simple integer to ASCII conversion:
   * signed and unsigned
   * user supplied buffer must be large enough for all decimal digits in value plus minus sign if negative
   * left-justified
-  * not NUL terminated
+  * NUL terminated
+  * return value is pointer to NUL terminator
 
 Files:
   * itoa_ljust.h   - programming interface
