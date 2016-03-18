@@ -22,10 +22,10 @@
 
 namespace itoa_ljust {
 
-    char* itoa(uint32_t u, char* p);
-    char* itoa( int32_t i, char* p);
-    char* itoa(uint64_t u, char* p);
-    char* itoa( int64_t i, char* p);
+    char* itoa(uint32_t u, char* buffer);
+    char* itoa( int32_t i, char* buffer);
+    char* itoa(uint64_t u, char* buffer);
+    char* itoa( int64_t i, char* buffer);
 
 }
 
