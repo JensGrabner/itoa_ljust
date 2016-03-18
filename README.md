@@ -12,8 +12,8 @@ Files:
   * itoa_ljust.cpp - implementation - compile and link with your application
 
 ```c++
-char* itoa(uint32_t u, char* p);
-char* itoa( int32_t i, char* p);
-char* itoa(uint64_t u, char* p);
-char* itoa( int64_t i, char* p);
+char* itoa(uint32_t u, char* buffer);
+char* itoa( int32_t i, char* buffer);
+char* itoa(uint64_t u, char* buffer);
+char* itoa( int64_t i, char* buffer);
 ```
