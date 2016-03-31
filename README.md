@@ -33,24 +33,6 @@ The benchmark uses sprintf as the baseline and compares various implementations 
 
 When compiled with gcc 5.3 at -O3 optimization level and run on an [Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz](http://ark.intel.com/products/88195/Intel-Core-i7-6700K-Processor-8M-Cache-up-to-4_20-GHz) this implementation is the fastest in all categories.
 
-#### Results for sequential sequences of 64-bit signed integers
-
-|Function |Time (ns)|Speedup|
-|---------|--------:|------:|
-|sprintf  |   54.168|  1.00x|
-|mwilson  |   17.785|  3.05x|
-|naive    |   16.507|  3.28x|
-|unnamed  |   14.151|  3.83x|
-|count    |   13.491|  4.02x|
-|lut      |   11.945|  4.53x|
-|countlut |    8.403|  6.45x|
-|branchlut|    8.028|  6.75x|
-|sse2     |    6.261|  8.65x|
-|**amartin**  |    6.106|  8.87x|
-|null     |    1.421| 38.13x|
-
-![corei7-6700K@4.00_linux64_gcc5.3_i64toa_sequential_time](result/corei7-6700K@4.00_linux64_gcc5.3_i64toa_sequential_time.png)
-
 #### Results for random sequences of 64-bit signed integers
 
 |Function |Time (ns)|Speedup|
@@ -68,3 +50,21 @@ When compiled with gcc 5.3 at -O3 optimization level and run on an [Intel(R) Cor
 |null     |    1.424| 47.18x|
 
 ![corei7-6700K@4.00_linux64_gcc5.3_i64toa_random_time](result/corei7-6700K@4.00_linux64_gcc5.3_i64toa_random_time.png)
+
+#### Results for sequential sequences of 64-bit signed integers
+
+|Function |Time (ns)|Speedup|
+|---------|--------:|------:|
+|sprintf  |   54.168|  1.00x|
+|mwilson  |   17.785|  3.05x|
+|naive    |   16.507|  3.28x|
+|unnamed  |   14.151|  3.83x|
+|count    |   13.491|  4.02x|
+|lut      |   11.945|  4.53x|
+|countlut |    8.403|  6.45x|
+|branchlut|    8.028|  6.75x|
+|sse2     |    6.261|  8.65x|
+|**amartin**  |    6.106|  8.87x|
+|null     |    1.421| 38.13x|
+
+![corei7-6700K@4.00_linux64_gcc5.3_i64toa_sequential_time](result/corei7-6700K@4.00_linux64_gcc5.3_i64toa_sequential_time.png)
