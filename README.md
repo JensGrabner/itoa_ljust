@@ -66,6 +66,3 @@ When compiled with gcc 5.3 at -O3 optimization level and run on an [Intel(R) Cor
 |null     |    1.424| 47.18x|
 
 ![corei7-6700K@4.00_linux64_gcc5.3_i64toa_sequential_time](result/corei7-6700K@4.00_linux64_gcc5.3_i64toa_sequential_time.png)
-
-![corei7-6700K@4.00_linux64_gcc5.3_i64toa_sequential_timedigit](result/corei7-6700K@4.00_linux64_gcc5.3_i64toa_sequential_timedigit.png)
-
