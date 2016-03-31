@@ -49,6 +49,8 @@ When compiled with gcc 5.3 at -O3 optimization level and run on an [Intel(R) Cor
 |**amartin**  |    6.106|  8.87x|
 |null     |    1.421| 38.13x|
 
+![corei7-6700K@4.00_linux64_gcc5.3_i64toa_sequential_time](result/corei7-6700K@4.00_linux64_gcc5.3_i64toa_sequential_time.png)
+
 #### Results for random sequences of 64-bit signed integers
 
 |Function |Time (ns)|Speedup|
@@ -65,4 +67,4 @@ When compiled with gcc 5.3 at -O3 optimization level and run on an [Intel(R) Cor
 |**amartin**  |   16.845|  3.99x|
 |null     |    1.424| 47.18x|
 
-![corei7-6700K@4.00_linux64_gcc5.3_i64toa_sequential_time](result/corei7-6700K@4.00_linux64_gcc5.3_i64toa_sequential_time.png)
+![corei7-6700K@4.00_linux64_gcc5.3_i64toa_random_time](result/corei7-6700K@4.00_linux64_gcc5.3_i64toa_random_time.png)
