@@ -27,7 +27,7 @@ char* itoa( int64_t i, char* buffer);
 
 ## Performance Benchmark
 
-This implemenation is incorporated in [Milo Yip's itoa-benchmark](https://github.com/miloyip/itoa-benchmark) - it is called **_amartin_** there.
+This implemenation is incorporated in [Milo Yip's excellent itoa-benchmark](https://github.com/miloyip/itoa-benchmark) - it is called **_amartin_** there.
 
 The benchmark uses sprintf as the baseline and compares various implementations running both sequential and random integer sequences for signed and unsigned integers of 32-bit and 64-bit sizes (8 different tests).
 
