@@ -31,7 +31,7 @@ This implemenation is incorporated in [Milo Yip's excellent itoa-benchmark](http
 
 The benchmark uses sprintf as the baseline and compares various implementations running both sequential and random integer sequences for signed and unsigned integers of 32-bit and 64-bit sizes (8 different tests).
 
-When compiled with gcc 5.3 at -O3 optimization level and run on an [Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz](http://ark.intel.com/products/88195/Intel-Core-i7-6700K-Processor-8M-Cache-up-to-4_20-GHz) this implementation is the fastest in all categories (the **null** function does nothing, used to measure overhead of benchnmark loop).
+When compiled with gcc 5.3 at -O3 optimization level and run on an [Intel(R) Core(TM) i7-6700K CPU @ 4.00GHz](http://ark.intel.com/products/88195/Intel-Core-i7-6700K-Processor-8M-Cache-up-to-4_20-GHz) this implementation is the fastest in all categories (the **null** function does nothing, used to measure overhead of benchmark loop).
 
 #### Results for random sequences of 64-bit signed integers
 
